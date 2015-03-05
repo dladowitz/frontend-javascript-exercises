@@ -57,7 +57,6 @@ describe("findFirstMatch", function() {
 
   it("should find a match", function() {
     expect(challenge.findFirstMatch("Roses are red.", "red")).to.eql(10);
-
   });
 
   it("should return the first match", function() {
