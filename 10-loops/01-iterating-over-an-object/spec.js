@@ -44,7 +44,7 @@ describe("getValues", function() {
     expect(challenge.getValues).to.exist;
   });
 
-  it("should return an array of all the keys", function() {
+  it("should return an array of all the values", function() {
     hash = {name: "Rob", age: 101};
     array = ["Rob", 101];
     result = challenge.getValues(hash);
